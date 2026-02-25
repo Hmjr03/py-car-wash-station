@@ -1,12 +1,12 @@
 class Car:
-    def _init_(self, comfort_class: int, clean_mark: int, brand: str) -> None:
+    def __init__(self, comfort_class: int, clean_mark: int, brand: str) -> None:
         self.comfort_class = comfort_class
         self.clean_mark = clean_mark
         self.brand = brand
 
 
 class CarWashStation:
-    def _init_(
+    def __init__(
         self,
         distance_from_city_center: float,
         clean_power: int,
